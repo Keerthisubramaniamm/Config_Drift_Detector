@@ -1,0 +1,23 @@
+{
+  "database": {
+    "host": "db.production.local",
+    "port": 5432,
+    "encryption": {
+      "enabled": true,
+      "algorithm": "AES-256"
+    }
+  },
+  "security": {
+    "firewall": {
+      "enabled": true,
+      "allowed_ips": [
+        "10.0.0.0/8",
+        "192.168.1.0/24"
+      ]
+    }
+  },
+  "caching": {
+    "redis_host": "cache.production.local",
+    "port": "6379"
+  }
+}
