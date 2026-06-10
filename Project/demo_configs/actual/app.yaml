@@ -1,0 +1,20 @@
+# Server Configurations
+server:
+  replicas: 1
+  ssl: false
+  port: 8080
+  api_keys: "prod-secret-key-12345"
+
+# Database Configurations
+database:
+  backup: false
+  replication: false
+
+# Application Logging
+logging:
+  level: "debug"
+  metrics: false
+
+# UI Configurations
+ui:
+  theme: "light"

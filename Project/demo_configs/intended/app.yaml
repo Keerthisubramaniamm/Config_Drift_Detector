@@ -1,0 +1,21 @@
+# Server Configurations
+server:
+  replicas: 3
+  ssl: true
+  port: 443
+  api_keys: "prod-secret-key-12345"
+
+# Database Configurations
+database:
+  backup: true
+  replication: true
+  max_connections: 50
+
+# Application Logging
+logging:
+  level: "info"
+  metrics: true
+
+# UI Configurations
+ui:
+  theme: "dark"

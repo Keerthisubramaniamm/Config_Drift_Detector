@@ -1,0 +1,21 @@
+{
+  "database": {
+    "host": "db.staging.local",
+    "port": 5432,
+    "encryption": {
+      "enabled": false
+    }
+  },
+  "security": {
+    "firewall": {
+      "enabled": false,
+      "allowed_ips": [
+        "0.0.0.0/0"
+      ]
+    }
+  },
+  "caching": {
+    "redis_host": "cache.staging.local",
+    "port": 6379
+  }
+}
